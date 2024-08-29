@@ -24,7 +24,7 @@ function HomePage() {
                         <img src={dish.imageUrl} alt={dish.name} className="w-full h-60 object-cover rounded-t-lg mb-2" />
                         <h2 className="text-lg font-semibold text-gray-700">{dish.name}</h2>
                         <p className="text-sm text-gray-600">From: {dish.restaurantName}</p>
-                        <p className="text-sm text-gray-600">${dish.price}</p>
+                        <p className="text-sm text-gray-600">$ : {dish.price}</p>
                         <button
                             onClick={() => addToCart(dish)}
                             className="mt-2 inline-block bg-green-500 text-white px-3 py-1 rounded-md text-sm hover:bg-green-600"
