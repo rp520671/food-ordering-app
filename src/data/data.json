@@ -1,21 +1,21 @@
 
 {
   "restaurants": [
-    { "id": 1, "name": "Pizza Place", "imageUrl": "../assets/restaurant1.jpeg" },
-    { "id": 2, "name": "Burger Joint", "imageUrl": "../assets/restaurant2.jpeg" },
-    { "id": 3, "name": "Sushi Spot", "imageUrl": "../assets/restaurant3.jpeg" }
+    { "id": 1, "name": "Pizza Place", "imageUrl": "/assets/restaurant1.jpeg" },
+    { "id": 2, "name": "Burger Joint", "imageUrl": "/assets/restaurant2.jpeg" },
+    { "id": 3, "name": "Sushi Spot", "imageUrl": "/assets/restaurant3.jpeg" }
   ],
   "menuItems": {
     "1": [
-      { "id": 1, "name": "Pepperoni Pizza", "price": 12, "imageUrl": "../assets/pepperoni-pizza.jpeg" },
-      { "id": 2, "name": "Margherita Pizza", "price": 10, "imageUrl": "../assets/margherita-pizza.jpeg" }
+      { "id": 1, "name": "Pepperoni Pizza", "price": 12, "imageUrl": "/assets/pepperoni-pizza.jpeg" },
+      { "id": 2, "name": "Margherita Pizza", "price": 10, "imageUrl": "/assets/margherita-pizza.jpeg" }
     ],
     "2": [
-      { "id": 3, "name": "Cheeseburger", "price": 8, "imageUrl": "../assets/cheese-burger.jpeg" },
-      { "id": 4, "name": "Veggie Burger", "price": 7, "imageUrl": "../assets/veggie-burger.jpeg" }
+      { "id": 3, "name": "Cheeseburger", "price": 8, "imageUrl": "/assets/cheese-burger.jpeg" },
+      { "id": 4, "name": "Veggie Burger", "price": 7, "imageUrl": "/assets/veggie-burger.jpeg" }
     ],
     "3": [
-      { "id": 5, "name": "California Roll", "price": 10, "imageUrl": "../assets/california-roll.jpeg" },
+      { "id": 5, "name": "California Roll", "price": 10, "imageUrl": "/assets/california-roll.jpeg" },
       { "id": 6, "name": "Spicy Tuna Roll", "price": 12, "imageUrl": "/assets/spicy-tuna-roll.jpeg" }
     ]
   }
